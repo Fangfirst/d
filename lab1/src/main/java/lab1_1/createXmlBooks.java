@@ -116,7 +116,8 @@ public class createXmlBooks {
         writer.flush();
         writer.close();
         fos.close();
-
+        
+        System.out.println("XML file created successfully with multiple books!");
         System.out.println("XML file created successfully with multiple books!");
     }
 }
